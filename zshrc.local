@@ -1,2 +1,3 @@
 export PATH="$HOME/.bin:$PATH"
 source /Users/vendelalarsson/.asdf/asdf.sh
+export RCRC="$HOME/dotfiles/rcrc"
