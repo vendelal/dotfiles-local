@@ -1,6 +1,5 @@
 export ZSH="/Users/vendelalarsson/.oh-my-zsh"
 export PATH="$HOME/.bin:$PATH"
-source /Users/vendelalarsson/.asdf/asdf.sh
 export RCRC="$HOME/dotfiles/rcrc"
 
 # Disables oh-my-zsh themes
@@ -13,4 +12,4 @@ prompt pure
 # Use plugins
 plugins=(git jump zsh-syntax-highlighting)
 
-source $ZSH/oh-my-zsh.sh
+export FZF_DEFAULT_OPTS=‘—height=40% —preview=“cat {}” —preview-window=right:60%:wrap
