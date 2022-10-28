@@ -1,3 +1,16 @@
+export ZSH="/Users/vendelalarsson/.oh-my-zsh"
 export PATH="$HOME/.bin:$PATH"
 source /Users/vendelalarsson/.asdf/asdf.sh
 export RCRC="$HOME/dotfiles/rcrc"
+
+# Disables oh-my-zsh themes
+ZSH_THEME=""
+
+# Sets theme to: https://github.com/sindresorhus/pure
+autoload -U promptinit; promptinit
+prompt pure
+
+# Use plugins
+plugins=(git jump zsh-syntax-highlighting)
+
+source $ZSH/oh-my-zsh.sh
